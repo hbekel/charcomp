@@ -526,12 +526,6 @@ void usage(void) {
 	 "         -D, --skip-digits  : skip copying digits\n"
 	 "         -S, --skip-symbols : skip copying symbols\n"
 	 "\n"
-	 
-	 "Generates complete C64 character ROM files from possibly incomplete\n"
-	 "character sets by copying letters, digits and symbols into the default\n"
-	 "C64 character ROM.\n"
-	 
-	 "\n"
          ,name, name);
 }
 
