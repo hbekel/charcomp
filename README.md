@@ -31,8 +31,6 @@ The charsets used in this examples are available from http://kofler.dot.at/c64/i
 
 ### Quadro Graf (upper case only)
 
-Input:
-
 ![Quadro Graf input](images/quadro-graf-input.gif)
 
 Command:
@@ -48,8 +46,6 @@ will still need some editing.
 
 ### Antik 1 (mixed case only)
 
-Input:
-
 ![Antik 1 input](images/antik-1-input.gif)
 
 Command:
@@ -63,23 +59,26 @@ Result:
 Note that the --mixed option is needed to specify that the input
 charset is a mixed case charset.
 
+The only symbol that may still need some polishing is the pi symbol.
+
 If you want to separate the upper case and the mixed case portion,
 simply specify two output files:
 
     $ charcomp --mixed antik_1.64c antik-upper.rom antik-mixed.rom
 
 Result:
+
 ![Antik 1 output upper case](images/antik-1-output-upper.png)
+
+and
 
 ![Antik 1 output mixed case](images/antik-1-output-mixed.png)
 
 ### Assault machine (upper case, no proper symbols)
 
-Input:
-
 ![Assault machine input](images/assault-machine-input.gif)
 
-As you can see, this input charset does not contain any usable
+This input charset does not contain any usable
 symbols, so we skip the copying of symbols using the --skip-symbols
 option:
 
@@ -124,13 +123,13 @@ Options:
 
 Linux, Cygwin & MacOSX:
 
-   $ cd fastboot64
-   $ make
-   $ make install
+    $ cd fastboot64
+    $ make
+    $ make install
 
 Windows (using mingw32):
 
-   $ make CC=i686-pc-mingw32-gcc
+    $ make CC=i686-pc-mingw32-gcc
    
 PREFIX defaults to `/usr/local`. Use DESTDIR for staged installs.
 
