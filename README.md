@@ -59,6 +59,8 @@ Result:
 Note that the --mixed option is needed to specify that the input
 charset is a mixed case charset.
 
+The only symbol that may still need some polishing is the pi symbol.
+
 If you want to separate the upper case and the mixed case portion,
 simply specify two output files:
 
@@ -68,13 +70,15 @@ Result:
 
 ![Antik 1 output upper case](images/antik-1-output-upper.png)
 
+and
+
 ![Antik 1 output mixed case](images/antik-1-output-mixed.png)
 
 ### Assault machine (upper case, no proper symbols)
 
 ![Assault machine input](images/assault-machine-input.gif)
 
-As you can see, this input charset does not contain any usable
+This input charset does not contain any usable
 symbols, so we skip the copying of symbols using the --skip-symbols
 option:
 
