@@ -122,7 +122,7 @@ Options:
 
 Linux, Cygwin & MacOSX:
 
-    $ cd fastboot64
+    $ cd charcomp-1.0
     $ make
     $ make install
 
