@@ -33,8 +33,6 @@ The charsets used in this examples are available from http://kofler.dot.at/c64/i
 
 ![Quadro Graf input](images/quadro-graf-input.gif)
 
-Command:
-
     $ charcomp quadro_graf.64c quadro_graf.rom
 
 Result:
@@ -47,8 +45,6 @@ will still need some editing.
 ### Antik 1 (mixed case only)
 
 ![Antik 1 input](images/antik-1-input.gif)
-
-Command:
 
     $ charcomp --mixed antik_1.64c antik_1.rom
 
@@ -102,7 +98,10 @@ Result:
 
 ![Assault machine output](images/assault-machine-symbols-edited-normalized.png)
 
-## Usage
+Preview images like these can be generated in PBM format instead of ROM images by 
+specifiying the --bitmap option.
+
+## Options
 
 <pre>
 Usage: charcomp [&lt;input&gt; [&lt;output&gt;]]
