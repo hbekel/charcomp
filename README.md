@@ -5,7 +5,7 @@ incomplete charsets
 
 ## Synopsis
 
-   charcomp incomplete.rom complete.rom
+    $ charcomp incomplete.rom complete.rom
    
 ## Description
 
@@ -41,7 +41,7 @@ Command:
 
 Result:
 
-![Quadro Graf output](images/quadro-graf-output.git)
+![Quadro Graf output](images/quadro-graf-output.png)
 
 Since this is an upper-case only charset, the lower case characters
 will still need some editing.
@@ -69,8 +69,8 @@ simply specify two output files:
     $ charcomp --mixed antik_1.64c antik-upper.rom antik-mixed.rom
 
 Result:
-
 ![Antik 1 output upper case](images/antik-1-output-upper.png)
+
 ![Antik 1 output mixed case](images/antik-1-output-mixed.png)
 
 ### Assault machine (upper case, no proper symbols)
@@ -101,7 +101,7 @@ edited rom image through charcomp again:
 
 Result:
 
-![Assault machine output](images/assault-machine-edited-symbols-normalized.png)
+![Assault machine output](images/assault-machine-symbols-edited-normalized.png)
 
 ## Usage
 
